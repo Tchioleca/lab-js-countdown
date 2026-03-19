@@ -7,6 +7,14 @@ let timer = null; // Variable to store the interval
 // ITERATION 1: Add event listener to the start button
 
 // Your code goes here ...
+const button = document.querySelector("#start-btn");
+ 
+function handleStrt(){
+  console.log("Button was pressed");
+};
+
+button.addEventListener("click", handleStrt);
+
 
 
 
